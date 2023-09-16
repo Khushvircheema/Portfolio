@@ -1,0 +1,16 @@
+{
+  "slides": [
+    {
+      "src": "https://i.imgur.com/LrB8f65.jpeg",
+      "alt": "agecalculatorapp"
+    },
+    { "src": "https://i.imgur.com/n1ARNOn.jpeg", "alt": "tindog" },
+    { "src": "https://i.imgur.com/9zTC5Ab.jpeg", "alt": "todolist" }
+  ],
+  "assets": [
+    { "src": "https://i.imgur.com/P4Fkw0f.png", "alt": "hamburger" },
+    { "src": "https://i.imgur.com/aRSnxBw.png", "alt": "hamburgerClose" },
+    { "src": "https://i.imgur.com/6p0Qxnf.png", "alt": "mainImage" },
+    { "src": "https://i.imgur.com/ukPx0r3.png", "alt": "AboutImage" }
+  ]
+}
