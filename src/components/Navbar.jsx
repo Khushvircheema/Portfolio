@@ -19,7 +19,7 @@ function Navbar({ photos }) {
       <a href="/">
         <h1>Khushvir Cheema</h1>
       </a>
-      {(toggle || screenWidth > 390) && (
+      {(toggle || screenWidth > 600) && (
         <ul className="links">
           <li>
             <a href="/">Home</a>
