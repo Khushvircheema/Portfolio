@@ -1,5 +1,6 @@
 import { useEffect, useRef } from "react";
 import Typed from "typed.js";
+
 function MainSection({ photo }) {
   const el = useRef(null);
   useEffect(() => {
@@ -53,8 +54,6 @@ function MainSection({ photo }) {
           </li>
         </ul>
       </div>
-
-      <img className="myImage" src={photo[2].src} alt="Portfolioimage" />
     </section>
   );
 }
