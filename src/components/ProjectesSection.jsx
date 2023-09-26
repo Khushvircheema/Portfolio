@@ -24,12 +24,14 @@ function ProjectsSection({ data }) {
         />
         {data.map((item, index) => {
           return (
-            <img
-              alt={item.alt}
-              src={item.src}
-              key={index}
-              className={slide === index ? "slide" : "slide slide-hidden"}
-            />
+            <a href={item.link} className="projectLinks">
+              <img
+                alt={item.alt}
+                src={item.src}
+                key={index}
+                className={slide === index ? "slide" : "slide slide-hidden"}
+              />
+            </a>
           );
         })}
         <img

@@ -22,7 +22,7 @@ function MainSection({ photo }) {
   }, []);
   return (
     <section id="main">
-      <div className="intro">
+      <div id="intro">
         <h2>Hi, I'm Khushvir</h2>
         <p className="typer">
           A <span ref={el}></span>
