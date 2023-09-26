@@ -22,38 +22,36 @@ function MainSection({ photo }) {
   }, []);
   return (
     <section id="main">
-      <div id="intro">
-        <h2>Hi, I'm Khushvir</h2>
-        <p className="typer">
-          A <span ref={el}></span>
-        </p>
-        <ul className="socialMedia links">
-          <li>
-            <a
-              rel="noreferrer"
-              target="_blank"
-              href="https://www.linkedin.com/in/khushvircheema/"
-            >
-              <img
-                src="https://img.icons8.com/color/48/linkedin.png"
-                alt="linkedin"
-              />
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://github.com/Khushvircheema"
-              rel="noreferrer"
-              target="_blank"
-            >
-              <img
-                src="https://img.icons8.com/nolan/64/github.png"
-                alt="github"
-              />
-            </a>
-          </li>
-        </ul>
-      </div>
+      <h2>Hi, I'm Khushvir</h2>
+      <p className="typer">
+        A <span ref={el}></span>
+      </p>
+      <ul className="socialMedia links">
+        <li>
+          <a
+            rel="noreferrer"
+            target="_blank"
+            href="https://www.linkedin.com/in/khushvircheema/"
+          >
+            <img
+              src="https://img.icons8.com/color/48/linkedin.png"
+              alt="linkedin"
+            />
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://github.com/Khushvircheema"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <img
+              src="https://img.icons8.com/nolan/64/github.png"
+              alt="github"
+            />
+          </a>
+        </li>
+      </ul>
     </section>
   );
 }
