@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mooli&display=swap");
 :root {
   --primary: #000814;
   --background: #212121;
@@ -43,9 +44,9 @@ body {
 }
 .navbar h1 {
   color: var(--cta);
-  font-family: Roboto;
+  font-family: "Mooli", sans-serif;
   font-size: 1.5rem;
-  font-weight: 800;
+
   cursor: pointer;
 }
 ul {
